@@ -6,6 +6,7 @@ import repository.TransferenciaRepository;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+import java.util.List;
 
 @Service
 public class TransferenciaService {
@@ -61,5 +62,9 @@ public class TransferenciaService {
         } else {
             return 0.082 * transferencia.getValor();
         }
+    }
+
+    public List<Transferencia> listarTransferencias() {
+        return null;
     }
 }
