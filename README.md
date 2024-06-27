@@ -52,9 +52,23 @@ Antes de iniciar, certifique-se de que tem instalado:
 2. Instale as dependências:
    ```bash
    npm install
-3. Execute os testes com o comando:
+4. Execute os testes com o comando:
    ```bash
    npm run test
+
+### Como Rodar o Front-end
+1. Certifique-se que o Axios está instalado
+   ```bash
+   npm install axios
+2. Acessar pasta
+   ```bash
+   cd .\front-end\
+3. Rodar a aplicação
+   ```bash
+   npm run serve
+4. Acessar localmente
+   ```bash
+   http://localhost:8081/
 
 ## Arquitetura
 ### Separação de Responsabilidades

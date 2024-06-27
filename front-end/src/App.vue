@@ -1,21 +1,24 @@
 <template>
   <div id="app">
-    <!-- <AgendarTransferencia /> -->
-  <p>Easy Tranfer API</p>
+    <AgendarTransferencia />
+    <ListarTransferencias />
+    <p>Easy Transfer API</p>
   </div>
 </template>
 
 <script>
-// import AgendarTransferencia from './components/AgendarTransferencia.vue';
+import AgendarTransferencia from './components/AgendarTransferencia.vue';
+import ListarTransferencias from './components/ListarTransferencias.vue';
 
 export default {
   name: 'App',
-  // components: {
-  //   AgendarTransferencia
-  // }
+  components: {
+    AgendarTransferencia,
+    ListarTransferencias
+  }
 };
 </script>
 
 <style scoped>
-
+/* Adicione estilos se necessário */
 </style>
