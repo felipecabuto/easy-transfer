@@ -57,7 +57,7 @@ Antes de iniciar, certifique-se de que tem instalado:
    npm run test
 
 ### Como Rodar o Front-end
-1. Certifique-se que o Axios está instalado
+1. Certifique-se que além do npm o Axios também está instalado
    ```bash
    npm install axios
 2. Acessar pasta
