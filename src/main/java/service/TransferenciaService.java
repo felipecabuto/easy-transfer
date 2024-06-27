@@ -65,6 +65,6 @@ public class TransferenciaService {
     }
 
     public List<Transferencia> listarTransferencias() {
-        return null;
+        return transferenciaRepository.findAll();
     }
 }
