@@ -1,6 +1,6 @@
-package repository;
+package com.seguradorax.easy_transfer.repository;
 
-import entity.Transferencia;
+import com.seguradorax.easy_transfer.entity.Transferencia;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TransferenciaRepository extends JpaRepository<Transferencia, Long> {

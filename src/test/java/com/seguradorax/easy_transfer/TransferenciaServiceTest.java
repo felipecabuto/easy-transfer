@@ -1,13 +1,13 @@
 package com.seguradorax.easy_transfer;
 
-import entity.Transferencia;
+import com.seguradorax.easy_transfer.entity.Transferencia;
+import com.seguradorax.easy_transfer.repository.TransferenciaRepository;
+import com.seguradorax.easy_transfer.service.TransferenciaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import repository.TransferenciaRepository;
-import service.TransferenciaService;
 
 import java.time.LocalDate;
 import java.util.Arrays;

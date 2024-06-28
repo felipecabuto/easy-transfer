@@ -1,8 +1,8 @@
-package service;
+package com.seguradorax.easy_transfer.service;
 
-import entity.Transferencia;
+import com.seguradorax.easy_transfer.entity.Transferencia;
+import com.seguradorax.easy_transfer.repository.TransferenciaRepository;
 import org.springframework.stereotype.Service;
-import repository.TransferenciaRepository;
 
 import java.time.LocalDate;
 import java.util.List;

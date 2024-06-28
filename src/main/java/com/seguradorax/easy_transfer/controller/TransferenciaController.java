@@ -1,8 +1,8 @@
-package controller;
+package com.seguradorax.easy_transfer.controller;
 
-import entity.Transferencia;
+import com.seguradorax.easy_transfer.entity.Transferencia;
+import com.seguradorax.easy_transfer.service.TransferenciaService;
 import org.springframework.web.bind.annotation.*;
-import service.TransferenciaService;
 
 import java.util.List;
 

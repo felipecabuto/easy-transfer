@@ -1,14 +1,15 @@
-package entity;
+package com.seguradorax.easy_transfer.entity;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import org.springframework.data.annotation.Id;
-
 import java.time.LocalDate;
 
 @Entity
 public class Transferencia {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -16,7 +17,6 @@ public class Transferencia {
     private String contaOrigem;
     private String contaDestino;
     private double valor;
-    private double taxa;
     private LocalDate dataTransferencia;
     private LocalDate dataAgendamento;
 
@@ -52,14 +52,6 @@ public class Transferencia {
         this.valor = valor;
     }
 
-    public double getTaxa() {
-        return taxa;
-    }
-
-    public void setTaxa(double taxa) {
-        this.taxa = taxa;
-    }
-
     public LocalDate getDataTransferencia() {
         return dataTransferencia;
     }
@@ -74,5 +66,8 @@ public class Transferencia {
 
     public void setDataAgendamento(LocalDate dataAgendamento) {
         this.dataAgendamento = dataAgendamento;
+    }
+
+    public void setTaxa(double v) {
     }
 }

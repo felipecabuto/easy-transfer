@@ -35,9 +35,8 @@ export default {
   },
   methods: {
     agendarTransferencia() {
-      // eslint-disable-next-line no-unused-vars
       axios.post('/api/transferencias', this.transferencia)
-        .then(response => {  // eslint-disable-line no-unused-vars
+        .then(response => {
           alert('Transferência agendada com sucesso!');
         })
         .catch(error => {
