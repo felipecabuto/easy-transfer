@@ -36,7 +36,7 @@ export default {
   methods: {
     agendarTransferencia() {
       axios.post('/api/transferencias', this.transferencia)
-        .then(response => {
+        .then(() => {
           alert('Transferência agendada com sucesso!');
         })
         .catch(error => {
