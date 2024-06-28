@@ -4,7 +4,7 @@ package com.seguradorax.easy_transfer.entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;
 import java.time.LocalDate;
 
 @Entity
