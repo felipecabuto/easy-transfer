@@ -31,8 +31,8 @@ Antes de iniciar, certifique-se de que tem instalado:
 
 ### Endpoints da API:
 
-- `POST /transferencias` - Agenda uma nova transferência
-- `GET /transferencias` - Lista todas as transferências agendadas
+- `POST /api/transferencias` - Agenda uma nova transferência
+- `GET /api/transferencias` - Lista todas as transferências agendadas
 
 ### Para executar os testes unitários:
 
